@@ -1,5 +1,3 @@
-# RA-verslag
-beschrijving over de verslag
 # J2P4_Transcriptomics
 <p align="center">
   <img src="assets/RA.png" alt="Reuma" width="200" />
