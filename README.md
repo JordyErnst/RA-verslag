@@ -1,6 +1,6 @@
 # J2P4_Transcriptomics
 <p align="center">
-  <img src="assets/reuma-in-handen.jpg" alt="Reuma" width="2000" />
+  <img src="voorblad/reuma-in-handen.jpg" alt="Reuma" width="2000" />
 </p>
 
 ___
