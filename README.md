@@ -2,7 +2,7 @@
 beschrijving over de verslag
 # J2P4_Transcriptomics
 <p align="center">
-  <img src="assets/RA.png" alt="Dubbel strengs DNA" width="200" />
+  <img src="assets/RA.png" alt="Reuma" width="200" />
 </p>
 
 ___
