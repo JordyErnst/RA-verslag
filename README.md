@@ -1,4 +1,4 @@
-# J2P4_Transcriptomics
+# Verhoging van CD28 op T-helpercellen gemeten in Reumatoïde artritis patiënten. 
 <p align="center">
   <img src="voorblad/reuma-in-handen.jpg" alt="Reuma" width="2000" />
 </p>
