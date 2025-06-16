@@ -18,7 +18,7 @@ Het volledige Rstudio code is [hier](Script/casus_Reuma_R_code.R) terug te vinde
 
 ## Resultaten
 Met behulp van R werden meerdere resultaten gegenereerd. Als eerst werd er een [volcano plot](Resultaten/volcano_plot.png) gegenereerd. Hiermee werd er gevisualiseerd hoeveel gemeten genen: niet significant zijn (grijs), alleen een log2-waarde hebben van 2 of -2 (groen) en hoeveel naast de gewenste log-waarde ook p-waarde onder 0.05 hebben (rood).
-Hierna is een GO-analyse uitgevoerd. Hiermee kond er gemeten worden welke metabolische routes significant zijn aangepast binnen RA-patiënten. Uit deze analyse is een top 10 grafiek gegenereerd van de metabolische routes, om te bepalen welke routes het meest significant zijn aangepast. 
+Hierna is een GO-analyse uitgevoerd. Hiermee kond er gemeten worden welke metabolische routes significant zijn aangepast binnen RA-patiënten. Uit deze analyse is een [top 10 grafiek](Resultaten/top_10_GO.png) gegenereerd van de metabolische routes, om te bepalen welke routes het meest significant zijn aangepast. 
 Als laatste werd er een KEGG-analyse uitgevoerd. Bij een KEGG-analyse werden de significante genen met een log2-waarde boven de 2 of onder de -2 gemapt op een “pathway”. Tijdens het experiment is er gekozen voor de pathway “hsa04672”, wat het intestinaal immuun netwerk voor IgA-productie aantoont. De gegenereerde pathway (hier) toont rode (op gereguleerd) en groene (neer gereguleerd) genen. Hiermee is te zien dat er een duidelijk verschil is in genregulatie van patiënten met reumatoïde artritis.
 
 ## Conclusie
