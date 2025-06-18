@@ -1,13 +1,11 @@
 Uitleg over een efficiënte en gestructureerde manier van beheren.
 
-Enkele hulpvragen staan hieronder weergeven. Dit zijn enkele voorbeelden om te schetsen wat er van je verwacht wordt. Denk dus ook zelf goed na over het beheren van data, het belang hiervan en hoe je dat vorm kunt geven!
-
-Waarom is dit een belangrijk onderdeel van onderzoek doen?
-Wat is een duidelijke mappenstructuur en waarom houd je dat aan?
-Wat is een handige manier voor de naamgeving van bestanden en waarom?
-Wat houdt versiebeheer in en waarom doe je dit?
-Hoe zorg je voor goede documentatie in scripts?
-Wat voor platforms kan je gebruiken om scripts te delen?
-Welke tools gebruik je voor data-analyse, zoals bijvoorbeeld voor het veilig opslaan van data?
-Hoe zou je omgaan met gevoelige of persoonlijke data?
-Wat is het belang van open data en het publiceren van datasets?
+Data beheer is een belangrijk onderdeel van onderzoek omdat het zorgt voor herhaalbaarheid, overzicht, transparantie en betrwouwbaarheid van resultaten
+Een groot deel van databeheer draait om overzichtelijkheid, daarom is er gezorgd voor een duidelijke mappenstructuur. Mappen binnen github hebben namen zoals `Data`, `scripts`, `Resultaten` en `bronnen`. 
+Hierdoor zijn benodigde bestanden snel en gemakkelijk terug te vinden.
+Ook draagt duidelijke bestandnamen toe aan overzicht. een duidelijke bestand naam geeft de lezer direct inzicht in wat ze kunnen verwachten.
+Om herhaalbaarheid te vergroten, is gebruikgemaakt van versiebeheer zoals versie nummers van R packages, of mogelijke aanpassingen binnen een github pagina. 
+Een andere manier om herhaalbaarheid te verbeteren, is door binnen de R script stappen toe te lichten met een duidelijke opmerking.
+Tijdens het project is er gebruik gemaakt van Rstudio voor de data-analyse. Github is een ideaal platform om een R script te delen, omdat een lezer deze online kan bekijken zonder het te downloaden.
+het delen van een project op github is een vorm van open data. dit maakt onderzoek transparant en bruikbaar voor anderen.
+Als er persoonlijke of gevoelige data wordt gebruikt, kan de beheerder ervoor kiezen om de Gituhub te vergrendelen of alleen bepaalde personen toegang te geven.
