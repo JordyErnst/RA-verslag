@@ -9,6 +9,11 @@ ___
 Reumatoïde artritis (RA) is een chronische ontstekingsziekte en auto-immuun ziekte. Het uit zich als een constante ontsteking van de gewrichtsvloeistof en erosie van de botten en kraakbeen, wat leidt tot de afbraak van de gewrichten [(Jahid et al., 2023)](Bronnen/(Jahid_et_al_2023).pdf).  De grootste oorzaak van reumatoïde artritis is genetisch, maar andere factoren zoals: geslacht, roken, BMI, alcoholconsumptie, dieet, en mondhygiëne verhogen ook de vatbaarheid voor RA [(Sparks, 2018)](Bronnen/(Sparks_2018).pdf).
 Van alle test en controle patiënten is een synoviumbiopt genomen. De biopten werden gesequencet en geanalyseerd binnen R met als hoofddoel: “uitzoeken welke genen er hoger of lager tot expressie komen in personen met reumatoïde artritis”. Naast dit hoofddoel, werd er ook onderzocht welke metabolische route het meest betrokken was bij patiënten met RA met behulp van een Gene ontology analyses (GO).
 
+<p align="center">
+  <img src="Assets/FlowSchema2.jpg" alt="Reuma" width="2000" />
+</p>
+
+
 ## Methode
 Tijdens dit onderzoek zijn 8 patiënten onderzocht. 4 patiënten die negatief getest zijn voor ACPA (anti-ccp), en 4 patiënten die positief getest waren en dus reumatoïde artritis hadden. Van deze patiënten waren sequenties van synoviumbiopten gegenereerd. Om de verkregen sequenties te analyseren, werd de data verwerkt binnen R. Om dit te doen werd er gebruik gemaakt van externe “packages”. Deze werden gedownload met “BiocManager” (V 1.30.26).
 Voor het eerste gedeelte van het uitwerken waren de packages: “Rsubread” (V2.20.0) en “Rsamtools” (V2.22.0) nodig. Met deze packages werd een menselijk referentiegenoom geïndexeerd (hier te vinden), De patiënten sequenties werden op deze index gemapt en vervolgens werden de gemapde sequenties opgeslagen als “. BAM” en “. BAM.BAI” bestanden.
