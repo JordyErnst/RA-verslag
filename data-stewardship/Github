@@ -1,8 +1,10 @@
-Uitleg over hoe je GitHub hebt gebruikt.
-Tijdens dit project is er gebruik gemaakt van `github`. Github is een manier van verslag geving waarbij de lezer gemakkelijk: code, data en bestanden kan vinden die de schrijver heeft gebruikt. Hierdoor kan de lezer gemakkelijk het process volgen. In dit verslag is voor elke
+Tijdens dit project is gebruik gemaakt van `github` als middel voor verslaggeving en organisatie. Dit platform biedt een makkelijke manier om alle gebruikte bestanden, zoals .R scripts, figuren, data en bronnen
+overzichtelijk te maken voor de lezer. Hierdoor kan de lezer exact volgen hoe het project is opgebouwd en kan de lezer het gemakkelijk reproduceren.
 
-Maak duidelijk hoe jouw pagina bijdraagt aan reproduceerbaarheid van je data. 
-Kan je bijvoorbeeld alles makkelijk terugvinden 
-Is het makkelijk te gebruiken als iemand anders dit onderzoek gaat uitvoeren met behulp van jouw GitHub pagina
-Hoe heb je gezorgd voor een duidelijke structuur
-Hoe heb je gewerkt aan versiebeheer.
+Voor elk bestand is er een aparte map aangemaakt, zo zijn mappen zoals: `Assets`, `Bronnen`, `Resultaten` en `Script` te vinden zodat de lezer een gemakkelijke en logische manier heeft om benodigde bestanden terug te vinden.
+Daarnaast zijn alle gebruikte R packages voorzien van een versienummer, ook dit is gedaan zodat de lezer weet welke versie er gebruikt is en mogelijk deze ook zelf kan gebruiken.
+
+De tekst zelf bevat hyperlinks naar relevante bestnaden, zodat de lezer niet onnodig omhoog hoeft te scrollen.
+
+Om deze redenen is github een ideale manier van verslaggeving wanneer Databeheer, replicatie en organisatie van data belangrijk is voor zowel de schrijver als lezer.
+
