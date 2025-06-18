@@ -10,7 +10,7 @@ Reumatoïde artritis (RA) is een chronische ontstekingsziekte en auto-immuun zie
 Van alle test en controle patiënten is een synoviumbiopt genomen. De biopten werden gesequencet en geanalyseerd binnen R met als hoofddoel: “uitzoeken welke genen er hoger of lager tot expressie komen in personen met reumatoïde artritis”. Naast dit hoofddoel, werd er ook onderzocht welke metabolische route het meest betrokken was bij patiënten met RA met behulp van een Gene ontology analyses (GO).
 
 <p align="center">
-  <img src="Assets/FlowSchema2.png" alt="Flowschema" width="300" />
+  <img src="Assets/FlowSchema2.png" alt="Flowschema" width="700" />
 </p>
 
 
