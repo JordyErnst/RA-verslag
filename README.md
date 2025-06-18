@@ -1,6 +1,6 @@
 # Verhoging van CD28 op T-helpercellen gemeten in Reumatoïde artritis patiënten. 
 <p align="center">
-  <img src="voorblad/reuma-in-handen.jpg" alt="Reuma" width="2000" />
+  <img src="Assets/reuma-in-handen.jpg" alt="Reuma" width="2000" />
 </p>
 
 ___
