@@ -6,8 +6,8 @@
 ___
 
 ## Inleiding
-Reumatoïde artritis (RA) is een auto-immuunziekte. Het leidt tot een constante ontsteking van de gewrichtsvloeistof en afbraak van botten en kraakbeen, wat leidt tot de afbraak van de gewrichten [(Jahid et al., 2023)](Bronnen/(Jahid_et_al_2023).pdf).  De grootste oorzaak van reumatoïde artritis is genetisch, maar andere factoren zoals: geslacht, roken, BMI, alcoholconsumptie, dieet, en mondhygiëne verhogen ook de vatbaarheid voor RA [(Sparks, 2018)](Bronnen/(Sparks_2018).pdf).
-Synoviumbiopten worden genomen van test en controle patiënten, deze worden gesequenced en geanalyseerd binnen R met als doel uit te zoeken welke genen er hoger of lager tot expressie komen in personen met RA. Daarnaast wordt met behulp van een gene ontology-analyses (GO-analyse) onderzocht welke metabole route het meest betrokken is bij RA.
+Reumatoïde artritis (RA) is een auto-immuunziekte. Het leidt tot een constante ontsteking van de gewrichtsvloeistof en afbraak van botten en kraakbeen, wat leidt tot de afbraak van de gewrichten [(Jahid et al., 2023)](Bronnen/(Jahid_et_al_2023).pdf).  De grootste oorzaak van reumatoïde artritis is genetisch, maar andere factoren zoals geslacht, roken, BMI, alcoholconsumptie, dieet, en mondhygiëne verhogen ook de vatbaarheid voor RA [(Sparks, 2018)](Bronnen/(Sparks_2018).pdf).
+Synoviumbiopten worden genomen van test en controle patiënten, deze worden gesequenced en geanalyseerd binnen R met als doel uit te zoeken welke genen er hoger of lager tot expressie komen in personen met RA. Daarnaast wordt met behulp van een gene ontology-analyse (GO-analyse) onderzocht welke metabole route het meest betrokken is bij RA.
 
 
 ## Methode
