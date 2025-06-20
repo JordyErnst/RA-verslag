@@ -8,15 +8,11 @@ ___
 ## Inleiding
 Reumatoïde artritis (RA) is een auto-immuun ziekte. Het leidt tot een constante ontsteking van de gewrichtsvloeistof en afbraak van botten en kraakbeen, wat leidt tot de afbraak van de gewrichten [(Jahid et al., 2023)](Bronnen/(Jahid_et_al_2023).pdf).  De grootste oorzaak van reumatoïde artritis is genetisch, maar andere factoren zoals: geslacht, roken, BMI, alcoholconsumptie, dieet, en mondhygiëne verhogen ook de vatbaarheid voor RA [(Sparks, 2018)](Bronnen/(Sparks_2018).pdf).
 Synoviumbiopten werden genomen van test en controle patienten, deze werden gesequencet en geannalyseerd binnen R met als doel het uitzoeken welke genen er hoger of lager tot expressie kwamen in personen met RA. Hiernaast werd er met behulp van een gene ontology analyses (GO-analyse) onderzocht welke meetabolsiche route het meest betrokken was bij RA.
-In de onderstaande Flowschema is hoe dit experiment is uitgevoerd.
-
-
-<p align="center">
-  <img src="Assets/FlowSchema2.png" alt="Flowschema" width="700" />
-</p>
 
 
 ## Methode
+Het onderzoek is gebasseerd op deze flowschema.
+
 Tijdens dit onderzoek zijn 8 patiënten onderzocht. 4 ACPA (anti-ccp) negatief en 4 ACPA positief (RA). Synoviumbiopten van deze patiënten werden gesequenced en geanalyseerd met behulp van Rstudio. Binnen R werd er gebruik gemaakt van externe packages. Deze werden gedownload met `BiocManager (V 1.30.26)`.
 `Rsubread (V2.20.0)` en `Rsamtools (V2.22.0)` werden gebruikt om een menselijk refentiegenoom `(Ensambl: GCA_000001405.29)` te indexeren. Op deze index werden de patienten sequenties gemapped. Hiermee werden reads van de patienten gekoppeld binnen aan locaties in het menselijkgenoom.
 `Rsubread” (V2.20.0)` en `readr (V2.1.5)` werden gebruik om een count matrix te generenen. Een count matrix is een tabel wat aan toont hoeveel reads op elke gen zijn gemapt per patient.
