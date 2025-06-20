@@ -7,7 +7,7 @@ ___
 
 ## Inleiding
 Reumatoïde artritis (RA) is een auto-immuun ziekte. Het leidt tot een constante ontsteking van de gewrichtsvloeistof en afbraak van botten en kraakbeen, wat leidt tot de afbraak van de gewrichten [(Jahid et al., 2023)](Bronnen/(Jahid_et_al_2023).pdf).  De grootste oorzaak van reumatoïde artritis is genetisch, maar andere factoren zoals: geslacht, roken, BMI, alcoholconsumptie, dieet, en mondhygiëne verhogen ook de vatbaarheid voor RA [(Sparks, 2018)](Bronnen/(Sparks_2018).pdf).
-Synoviumbiopten werden genomen van test en controle patienten, deze werden gesequencet en geannalyseerd binnen R met als doel het uitzoeken welke genen er hoger of lager tot expressie kwamen in personen met RA. Hiernaast werd er met behulp van een gene ontology analyses (GO-analyse) onderzocht welke meetabolsiche route het meest betrokken was bij RA.
+Synoviumbiopten worden genomen van test en controle patiënten, deze worden gesequencet en geannalyseerd binnen R met als doel het uitzoeken welke genen er hoger of lager tot expressie kwamen in personen met RA. Hiernaast werd er met behulp van een gene ontology analyses (GO-analyse) onderzocht welke meetabolsiche route het meest betrokken was bij RA.
 
 
 ## Methode
@@ -16,7 +16,7 @@ Het onderzoek is gebasseerd op dit [flowschema.](Assets/Flowschema%20beter.png)
 Tijdens dit onderzoek zijn 8 patiënten onderzocht. 4 ACPA (anti-ccp) negatief en 4 ACPA positief (RA). Synoviumbiopten van deze patiënten werden gesequenced en geanalyseerd met behulp van Rstudio. Binnen R werd er gebruik gemaakt van externe packages. Deze werden gedownload met `BiocManager (V 1.30.26)`.
 `Rsubread (V2.20.0)` en `Rsamtools (V2.22.0)` werden gebruikt om een menselijk refentiegenoom `(Ensambl: GCA_000001405.29)` te indexeren. Op deze index werden de patienten sequenties gemapped. Hiermee werden reads van de patienten gekoppeld binnen aan locaties in het menselijkgenoom.
 `Rsubread” (V2.20.0)` en `readr (V2.1.5)` werden gebruikt om een count matrix te genereren. Een count matrix is een tabel wat aan toont hoeveel reads op elke gen zijn gemapt per patient.
-Voor het laatste gedeelte werd er een(differentiële expressie analyse, KEGG-analyse, GO-analyse en volcano plot gegeneerd. Hiervoor waren de packages: `DESeq2 (V1.46.0)`, `KEGGREST (V1.46.0)`, `readr (V2.1.5)`, `dplyr (V1.1.4)`, `goseq (V1.58.0)`, `geneLenDataBase (V1.42.0)`, `org.Hs.eg.db (V3.20.0)`, `GO.db (V3.20.0)`, `ggplot2 (V3.5.2)`, `EnhancedVolcano (V1.24.0)` en `pathview (V1.46.0)` gebruikt. Aan de hand van deze analyses kon er onderscheid gemaakt worden tussen significante veranderingen binnen RA patiënten en kon er gemeten werden op welke metabole route RA het meest effect had.
+Voor het laatste gedeelte werd er een differentiële expressie analyse, KEGG-analyse, GO-analyse en volcano plot gegeneerd. Hiervoor waren de packages: `DESeq2 (V1.46.0)`, `KEGGREST (V1.46.0)`, `readr (V2.1.5)`, `dplyr (V1.1.4)`, `goseq (V1.58.0)`, `geneLenDataBase (V1.42.0)`, `org.Hs.eg.db (V3.20.0)`, `GO.db (V3.20.0)`, `ggplot2 (V3.5.2)`, `EnhancedVolcano (V1.24.0)` en `pathview (V1.46.0)` gebruikt. Aan de hand van deze analyses kon er onderscheid gemaakt worden tussen significante veranderingen binnen RA patiënten en kon er gemeten werden op welke metabole route RA het meest effect had.
 Het volledige Rstudio code is [hier](Script/casus_Reuma_R_code.R) terug te vinden.
 
 
