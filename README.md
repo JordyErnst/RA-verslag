@@ -11,7 +11,7 @@ Synoviumbiopten werden genomen van test en controle patienten, deze werden geseq
 
 
 ## Methode
-Het onderzoek is gebasseerd op deze [flowschema.](Assets/Flowschema%20beter.png)
+Het onderzoek is gebasseerd op dit [flowschema.](Assets/Flowschema%20beter.png)
 
 Tijdens dit onderzoek zijn 8 patiënten onderzocht. 4 ACPA (anti-ccp) negatief en 4 ACPA positief (RA). Synoviumbiopten van deze patiënten werden gesequenced en geanalyseerd met behulp van Rstudio. Binnen R werd er gebruik gemaakt van externe packages. Deze werden gedownload met `BiocManager (V 1.30.26)`.
 `Rsubread (V2.20.0)` en `Rsamtools (V2.22.0)` werden gebruikt om een menselijk refentiegenoom `(Ensambl: GCA_000001405.29)` te indexeren. Op deze index werden de patienten sequenties gemapped. Hiermee werden reads van de patienten gekoppeld binnen aan locaties in het menselijkgenoom.
